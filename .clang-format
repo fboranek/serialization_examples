@@ -1,0 +1,28 @@
+AlignAfterOpenBracket: true
+AlignTrailingComments: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: true
+BasedOnStyle: WebKit
+BinPackParameters: false
+BraceWrapping:
+ AfterFunction: true
+ BeforeCatch: true
+ SplitEmptyFunction: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit: 100
+CompactNamespaces: true
+Cpp11BracedListStyle: true
+ExperimentalAutoDetectBinPacking: false
+IndentWidth: 4
+FixNamespaceComments: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: None
+PenaltyReturnTypeOnItsOwnLine: 120
+PointerAlignment: Left
+SpaceAfterTemplateKeyword: false
+Standard: Cpp11

@@ -1,0 +1,22 @@
+//
+//	Author   : Frantisek Boranek
+//	License  : Boost Software License (http://www.boost.org/users/license.html)
+//
+
+
+// Avro IDL (https://avro.apache.org/docs/1.8.2/idl.html)
+//
+// To generate JSON-format Avro Schema files with extension *.avsc run:
+// $ java -jar avro-tools-1.8.2.jar idl2schemata Person.v1.avdl <dir>
+
+
+@namespace("example.avro")
+protocol example {
+
+record Person {
+  string name;
+  int id;
+  union { null, long } age; 
+}
+
+}

@@ -1,0 +1,15 @@
+//
+//	Author   : Frantisek Boranek
+//	License  : Boost Software License (http://www.boost.org/users/license.html)
+//
+
+
+syntax = "proto2";
+
+package v1;
+
+message Person {
+    required string name = 1;
+    required int32 id = 2;
+    optional uint32 age = 3;
+}
